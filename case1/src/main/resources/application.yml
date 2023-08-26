@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+
+feign-api-endpoints:
+  open-exchange-rates:
+    name: "open-exchange-rates"
+    url: "https://openexchangerates.org/api/"
+    api-id: "b52eedf5586740b4bc05e5ab0a57e6fd"
+
+spring.data.mongodb:
+  host: localhost
+  port: 27017
+  database: case1_test
